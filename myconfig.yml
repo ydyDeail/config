@@ -1,8 +1,9 @@
-server:
-  port: 1234
 spring:
-  application:
-    name: enrekaClient
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.10.3:3306/smbms?useUnicode=true&charsetEncoding=utf-8
+    username: root
+    password: 123
 eureka:
   client:
     serviceUrl:
