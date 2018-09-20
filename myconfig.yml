@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/smbms?useUnicode=true&charsetEncoding=utf-8
+    url: jdbc:mysql://localhost:3309/smbms?useUnicode=true&charsetEncoding=utf-8
     username: root
     password: 123
 eureka:
